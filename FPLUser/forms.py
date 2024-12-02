@@ -12,5 +12,3 @@ class FPLUserChangeForm(UserChangeForm):
     class Meta:
         model = FPLUser
         fields = ("email",)
-
-        
